@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 150px;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.4);
+  background-color: darkblue;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p {
+  position: absolute;
+  top: 20%;
+  word-wrap: break-word;
+  padding-right: 20px;
+}
+h1 {
+  position: absolute;
+  bottom: 30px;
+}
